@@ -1,0 +1,39 @@
+<div class="container mt-3">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="input-group osition-absolute" style="left:10%">
+        <label for="username" class="form-label" style="font-size: 18px; padding-right:5px ;padding-top: 10px;">Username</label>
+        <input type="text" class="form-control-lg" [(ngModel)]="githubUsername" name="githubUsername" id="githubUsername" aria-label="User Name" aria-describedby="button-addon2">
+        <button class="btn btn-primary" type="button" id="button-addon2" (click)="searchUser()">Find User</button>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-3">
+    <div class="row justify-content-center">
+      <ng-container *ngIf="!errorMessage">
+        <div class="col">
+          <ng-container *ngIf="githubUser">
+            <app-user-card [githubUser]="githubUser"></app-user-card>
+          </ng-container>
+        </div>
+        <div class="col">
+          <ng-container *ngIf="githubRepo">
+            <app-repo [githubRepo]="githubRepo"></app-repo>
+          </ng-container>
+        </div>
+      </ng-container>
+      <ng-container *ngIf="errorMessage">
+        <app-pagenotfound [errorMessage]="errorMessage"></app-pagenotfound>
+      </ng-container>
+    </div>
+  </div>
+</div>
+
+
+
+
+          
+
+
+        
+        

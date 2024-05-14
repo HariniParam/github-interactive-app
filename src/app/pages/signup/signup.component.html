@@ -1,0 +1,25 @@
+<div class="container mt-5">
+  <div class="row justify-content-center">
+      <div class="col-md-6">
+          <div class="card">
+              <div class="card-header text-center text-primary">
+                  SIGN UP PLEASE
+              </div>
+              <div class="card-body">
+                  <form>
+                      <div class="mb-3">
+                          <label for="email" class="form-label">Email</label>
+                          <input type="email" class="form-control" [(ngModel)]="email" name="email" id="email" placeholder="Enter Email" required>
+                      </div>
+                      <div class="mb-3">
+                          <label for="password" class="form-label">Password</label>
+                          <input type="password" class="form-control" [(ngModel)]="password" name="password" id="password" placeholder="Enter password" required>
+                          <div class="form-text">Minimum length of the password should be 6 or more</div>
+                      </div>
+                      <button type="button" class="btn btn-primary w-100" (click)="signup()">Sign Up</button>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
