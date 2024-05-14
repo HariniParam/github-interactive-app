@@ -33,3 +33,37 @@ Contains fixed components which will be available on all the pages.
 Contains all the service files:
 - **AuthService**: Has all the API calls for sign-in/sign-up feature using Firebase.
 - **GithubService**: Has all the API calls for searching and getting user details and repo list using GitHub public APIs.
+
+## Installation
+
+1. **Clone the Repository:**
+    - First, clone the Angular project repository to your local machine:
+        ```bash
+        git clone https://github.com/HariniParam/github-interactive-app.git
+        cd github-interactive-app
+        ```
+
+2. **Install Dependencies:**
+    - Install the required dependencies using npm:
+        ```bash
+        npm install
+        ```
+
+3. **Install Angular CLI:**
+    - If you haven't already installed Angular CLI globally, do so using the following command:
+        ```bash
+        npm install -g @angular/cli
+        ```
+
+4. **Firebase Configuration:**
+    - Create a new Firebase project on the Firebase Console.
+    - Obtain your Firebase configuration (API keys, project ID, etc.) from the Firebase project settings.
+    - Update the `environment.ts` and `environment.prod.ts` files in your Angular project with the Firebase configuration. These files are typically located in the `src/environments/` directory.
+
+## Running the App
+
+- Start the development server using Angular CLI:
+    ```bash
+    ng serve
+    ```
+- The application will be accessible at http://localhost:4200/.
