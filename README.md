@@ -60,10 +60,13 @@ Contains all the service files:
     - Obtain your Firebase configuration (API keys, project ID, etc.) from the Firebase project settings.
     - Update the `environment.ts` and `environment.prod.ts` files in your Angular project with the Firebase configuration. These files are typically located in the `src/environments/` directory.
 
-## Running the App
+5. **Running the App:**
+    - Start the development server using Angular CLI:
+        ```bash
+        ng serve -o
+        ```
+    - The application will be accessible at http://localhost:4200/.
 
-- Start the development server using Angular CLI:
-    ```bash
-    ng serve
-    ```
-- The application will be accessible at http://localhost:4200/.
+## Deployment
+
+You can access the deployed app at https://github-interactive-app.vercel.app.
