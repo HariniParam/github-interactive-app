@@ -73,18 +73,18 @@ You can access the deployed app at https://github-interactive-app.vercel.app.
 
 
 ## Comments
+
 **How much time did you spend on the assignment? How was it divided between designing, coding, and testing?**
-    - As I am new to Angular, took a major time in learning some basic concepts of TypeScript and Angular, and understanding the Angular project workflow.
-    - Since the project structure and design samples were provided, the design phase took less time.
-    - Implementing the features within the Angular framework was challenging, particularly navigating through the Angular workflow.
+- As I am new to Angular, a major portion of the time was spent learning some basic concepts of TypeScript and Angular, and understanding the Angular project workflow.
+- Since the project structure and design samples were provided, the design phase took less time.
+- Implementing the features within the Angular framework was challenging, particularly navigating through the Angular workflow.
 
 **What was hard about the assignment?**
-    - Understanding the Angular workflow was challenging initially. Additionally, I had not worked with Firebase authentication and API calls before, so I needed extra time to become familiar with this aspect.
+- Understanding the Angular workflow was challenging initially. Additionally, I had not worked with Firebase authentication and API calls before, so I needed extra time to become familiar with this aspect.
 
 **What would you change about the assignment?**
-    - I would like to add additional features like
-        - Sorting Repositories by Stars
-        - Filtering Repositories by Languages used
-        - Displaying some more stats and relevant details about the User
-
+- I would like to add additional features like:
+  - Sorting Repositories by Stars
+  - Filtering Repositories by Languages used
+  - Displaying more stats and relevant details about the user
 
